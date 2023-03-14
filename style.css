@@ -1,0 +1,45 @@
+.brick-layout {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-self: end;
+}
+
+.brick {
+    min-height: 80px;
+    min-width: 150px;
+
+}
+
+.color-aqua {
+    background-color: aqua;
+    
+}
+.color-yellow {
+ 
+    background-color: yellow;
+
+}
+.color-fuchsia {
+   background-color: fuchsia;
+
+}
+.n1 {
+ 
+    min-width: 100px;
+}
+.n4 {
+    min-width: 120px;
+
+}
+
+.n8 {
+    min-width: 260px;
+}
